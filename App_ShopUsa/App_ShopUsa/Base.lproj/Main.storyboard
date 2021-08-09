@@ -11,28 +11,38 @@
         <!--Compras-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="App_ShopUsa" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ShopViewController" customModule="App_ShopUsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="usa" translatesAutoresizingMaskIntoConstraints="NO" id="4vP-n8-mzQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="saopaulo" translatesAutoresizingMaskIntoConstraints="NO" id="brK-KF-TlB">
+                                <rect key="frame" x="0.0" y="151" width="414" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.37953251599999999" green="0.53284955020000002" blue="0.66243821380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Compras" selectedImage="bag" id="v2z-sb-jof"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3" y="413"/>
+            <point key="canvasLocation" x="-4.3478260869565224" y="412.50000000000006"/>
         </scene>
         <!--Configurações-->
         <scene sceneID="YZJ-hJ-pu3">
             <objects>
-                <viewController id="71I-oG-3TV" sceneMemberID="viewController">
+                <viewController id="71I-oG-3TV" customClass="SettingsViewController" customModule="App_ShopUsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sru-lV-kz3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="gte-yj-ofR"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Configurações" selectedImage="settings" id="OAS-La-xiQ"/>
                 </viewController>
@@ -46,6 +56,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fJj-Js-wcx" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ax3-zL-DpD">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -62,12 +73,12 @@
         <!--Impostos-->
         <scene sceneID="RLg-lp-0zx">
             <objects>
-                <viewController id="rW9-hY-ulq" sceneMemberID="viewController">
+                <viewController id="rW9-hY-ulq" customClass="TaxesViewController" customModule="App_ShopUsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O8w-xf-CFa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="gm6-eY-V2N"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Impostos" selectedImage="taxes" id="Exy-cy-4ch"/>
                 </viewController>
@@ -78,13 +89,12 @@
     </scenes>
     <resources>
         <image name="bag" width="23" height="23"/>
+        <image name="saopaulo" width="1920" height="1200"/>
         <image name="settings" width="23" height="23"/>
         <image name="taxes" width="23" height="23"/>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="usa" width="700" height="295"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
