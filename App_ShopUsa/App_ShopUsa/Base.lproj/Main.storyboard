@@ -98,7 +98,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d5G-Qb-AXi">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="307"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="470-sP-WK2">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="470-sP-WK2">
                                         <rect key="frame" x="20" y="30" width="374" height="247"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="0QM-2q-ywV">
@@ -156,6 +156,7 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
+                                        <variation key="heightClass=compact" axis="horizontal"/>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96854287390000005" green="0.96868163350000003" blue="0.96851247549999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
