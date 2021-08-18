@@ -16,6 +16,7 @@
 		1E61A57C263B87B800E41024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E61A57A263B87B800E41024 /* LaunchScreen.storyboard */; };
 		1EB345F426C17B160039EC66 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB345F326C17B160039EC66 /* SettingsViewController.swift */; };
 		1EB345F626C17B230039EC66 /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB345F526C17B230039EC66 /* TaxesViewController.swift */; };
+		1ED8CC7626CDC94400AEDA87 /* TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED8CC7526CDC94400AEDA87 /* TaxesCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1E61A57D263B87B800E41024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EB345F326C17B160039EC66 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1EB345F526C17B230039EC66 /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
+		1ED8CC7526CDC94400AEDA87 /* TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				1E61A570263B87B700E41024 /* ShopViewController.swift */,
 				1EB345F326C17B160039EC66 /* SettingsViewController.swift */,
 				1EB345F526C17B230039EC66 /* TaxesViewController.swift */,
+				1ED8CC7526CDC94400AEDA87 /* TaxesCalculator.swift */,
 				1E61A572263B87B700E41024 /* Main.storyboard */,
 				1E61A578263B87B800E41024 /* Assets.xcassets */,
 				1E61A57A263B87B800E41024 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				1EB345F626C17B230039EC66 /* TaxesViewController.swift in Sources */,
 				1E61A571263B87B700E41024 /* ShopViewController.swift in Sources */,
 				1E61A56D263B87B700E41024 /* AppDelegate.swift in Sources */,
+				1ED8CC7626CDC94400AEDA87 /* TaxesCalculator.swift in Sources */,
 				1E61A56F263B87B700E41024 /* SceneDelegate.swift in Sources */,
 				1EB345F426C17B160039EC66 /* SettingsViewController.swift in Sources */,
 				1E61A577263B87B700E41024 /* App_ShopUsa.xcdatamodeld in Sources */,

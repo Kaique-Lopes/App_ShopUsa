@@ -9,7 +9,9 @@ import UIKit
 
 class TaxesViewController: UIViewController {
     @IBOutlet weak var lbDolar: UILabel!
+    @IBOutlet weak var lbStateTaxes: UILabel!
     @IBOutlet weak var lbTaxes: UILabel!
+    @IBOutlet weak var lbIOFDescription: UILabel!
     @IBOutlet weak var lbIOF: UILabel!
     @IBOutlet weak var swCredit: UISwitch!
     @IBOutlet weak var lbTotalReal: UILabel!

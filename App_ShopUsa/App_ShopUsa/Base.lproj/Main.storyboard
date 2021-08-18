@@ -350,6 +350,8 @@
                     <connections>
                         <outlet property="lbDolar" destination="NqT-Tm-s4f" id="Ykj-6K-fxr"/>
                         <outlet property="lbIOF" destination="lQd-9e-TQP" id="2hg-51-uMb"/>
+                        <outlet property="lbIOFDescription" destination="QkG-2c-ISy" id="Dj2-sW-36k"/>
+                        <outlet property="lbStateTaxes" destination="qdD-D5-0Uf" id="eoI-wU-EDL"/>
                         <outlet property="lbTaxes" destination="tW5-pO-Yv8" id="yI0-rN-5g8"/>
                         <outlet property="lbTotalReal" destination="e7a-MN-13W" id="J6D-my-1ra"/>
                         <outlet property="swCredit" destination="AHe-aY-tlj" id="eVN-Ub-zBm"/>
