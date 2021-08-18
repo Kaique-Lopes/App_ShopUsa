@@ -19,6 +19,12 @@ class TaxesCalculator {
        return shoppingValue*dolar
     }
     
+    var stateTaxValue: Double {
+        shoppingValue*stateTax/100
+    }
+    
+    var
+    
     private init() {
         
     }
