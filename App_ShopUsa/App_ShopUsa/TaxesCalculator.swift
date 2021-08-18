@@ -15,6 +15,10 @@ class TaxesCalculator {
     var stateTax: Double = 7.0
     var shoppingValue: Double = 0
     
+    var shoppingValueInReal: Double {
+       return shoppingValue*dolar
+    }
+    
     private init() {
         
     }
