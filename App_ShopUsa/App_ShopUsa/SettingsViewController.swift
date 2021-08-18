@@ -8,7 +8,10 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
+    @IBOutlet weak var tfDolar: UITextField!
+    @IBOutlet weak var tfIOF: UITextField!
+    @IBOutlet weak var tfTaxes: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
