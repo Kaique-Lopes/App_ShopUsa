@@ -20,10 +20,14 @@ class TaxesCalculator {
     }
     
     var stateTaxValue: Double {
-        shoppingValue*stateTax/100
+       return shoppingValue*stateTax/100
     }
     
-    var
+    var iofValue: Double {
+        return (shoppingValue+stateTax) * iof/100
+    }
+    
+    func calculate() ->
     
     private init() {
         
