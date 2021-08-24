@@ -20,6 +20,7 @@ class ShopViewController: UIViewController {
         setAmount()
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        tfDolar.resignFirstResponder()
         setAmount()
     }
     
