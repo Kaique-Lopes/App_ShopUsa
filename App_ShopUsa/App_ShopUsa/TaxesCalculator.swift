@@ -27,7 +27,7 @@ class TaxesCalculator {
         return (shoppingValue+stateTax) * iof/100
     }
     
-    func calculate() ->
+    func calculate() -> Double
     
     private init() {
         
