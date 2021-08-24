@@ -15,7 +15,16 @@ class ShopViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setAmount()
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        setAmount()
+    }
+    
+    func setAmount(){
+        tc.dolar = Double(tfDolar.text!)!
+    }
 }
 

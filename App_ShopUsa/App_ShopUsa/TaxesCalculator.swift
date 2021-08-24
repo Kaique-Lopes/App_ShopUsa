@@ -27,7 +27,14 @@ class TaxesCalculator {
         return (shoppingValue+stateTax) * iof/100
     }
     
-    func calculate() -> Double
+    func calculate(usingCreditCard: Bool) -> Double {
+        var finalValue = shoppingValue + stateTaxValue
+        if usingCreditCard {
+            finalValue += iofValue
+        }
+        
+        return finalValue
+    }
     
     private init() {
         

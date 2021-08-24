@@ -41,7 +41,7 @@
                                 <rect key="frame" x="132" y="98.666666666666671" width="242" height="48.000000000000014"/>
                                 <color key="textColor" red="0.95296770334243774" green="0.031389150768518448" blue="0.24657911062240601" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor sem impostos ( Dólar xxx )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ys-t8-0sD">
                                 <rect key="frame" x="43" y="329.66666666666669" width="245" height="21"/>
@@ -120,7 +120,7 @@
                                                         <color key="backgroundColor" red="0.94897454977035522" green="0.78828388452529907" blue="0.93714487552642822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="textColor" red="0.95296770334243774" green="0.031389150768518448" blue="0.24657911062240601" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -138,7 +138,7 @@
                                                         <color key="backgroundColor" red="0.5940988688143739" green="0.7803921568627451" blue="0.52786147207619427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="textColor" red="0.028973355317952504" green="0.44834608828973188" blue="0.080215393291759821" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -156,7 +156,7 @@
                                                         <color key="backgroundColor" red="0.4530900829824685" green="0.78039215689999997" blue="0.74650013656390246" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="textColor" red="0.088338508580000003" green="0.079882357230000006" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                     </textField>
                                                 </subviews>
                                             </stackView>

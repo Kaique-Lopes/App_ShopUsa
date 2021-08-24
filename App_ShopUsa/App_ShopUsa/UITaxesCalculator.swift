@@ -9,6 +9,6 @@ import UIKit
 
 extension UIViewController {
     var tc: TaxesCalculator {
-        return 
+        return TaxesCalculator.shared
     }
 }
