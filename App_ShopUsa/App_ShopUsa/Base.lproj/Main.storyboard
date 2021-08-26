@@ -292,6 +292,9 @@
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AHe-aY-tlj">
                                         <rect key="frame" x="345" y="105.66666666666669" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="changeIOF:" destination="rW9-hY-ulq" eventType="valueChanged" id="GUO-6c-5ra"/>
+                                        </connections>
                                     </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total em R$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fT-3M-4Wf">
                                         <rect key="frame" x="20.000000000000007" y="141.33333333333337" width="88.666666666666686" height="20.333333333333343"/>

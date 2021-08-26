@@ -19,5 +19,20 @@ class TaxesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        calculateTaxes()
+    }
+    
+    @IBAction func changeIOF(_ sender: UISwitch) {
+        calculateTaxes()
+    }
+    
+    
+    func calculateTaxes () {
+        lbStateTaxes.text = "Imposto do Estado (\(tc.getFormattedValue(of: tc.stateTax, withCurrency: ""))%)"
+        lbIOFDescription.text = "IOF (\(tc.getFormattedValue(of: tc.iof, withCurrency: ""))%)"
+    }
 
 }
