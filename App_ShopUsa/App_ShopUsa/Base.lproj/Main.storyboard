@@ -121,6 +121,9 @@
                                                         <color key="textColor" red="0.95296770334243774" green="0.031389150768518448" blue="0.24657911062240601" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="71I-oG-3TV" id="Ow5-lf-LxF"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -139,6 +142,9 @@
                                                         <color key="textColor" red="0.028973355317952504" green="0.44834608828973188" blue="0.080215393291759821" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="71I-oG-3TV" id="lc5-EJ-zfa"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -157,6 +163,9 @@
                                                         <color key="textColor" red="0.088338508580000003" green="0.079882357230000006" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="71I-oG-3TV" id="GbD-df-dBP"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
