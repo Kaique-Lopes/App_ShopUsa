@@ -38,6 +38,9 @@ class TaxesViewController: UIViewController {
         lbTaxes.text = tc.getFormattedValue(of: tc.stateTaxValue, withCurrency: "US$")
         lbIOF.text = tc.getFormattedValue(of: tc.iofValue, withCurrency: "US$")
         
+        let real = tc.calculate(usingCreditCard: swCredit.isOn)
+        lbTotalReal.text = tc.getFormattedValue(of: real, withCurrency: "R$")
+        
     }
 
 }
