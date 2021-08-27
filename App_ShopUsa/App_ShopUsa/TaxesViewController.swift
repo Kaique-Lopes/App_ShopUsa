@@ -33,6 +33,11 @@ class TaxesViewController: UIViewController {
     func calculateTaxes () {
         lbStateTaxes.text = "Imposto do Estado (\(tc.getFormattedValue(of: tc.stateTax, withCurrency: ""))%)"
         lbIOFDescription.text = "IOF (\(tc.getFormattedValue(of: tc.iof, withCurrency: ""))%)"
+        
+        lbDolar.text = tc.getFormattedValue(of: tc.shoppingValue, withCurrency: "US$")
+        lbTaxes.text = tc.getFormattedValue(of: tc.stateTaxValue, withCurrency: "US$")
+        lbIOF.text = tc.getFormattedValue(of: tc.iofValue, withCurrency: "US$")
+        
     }
 
 }
